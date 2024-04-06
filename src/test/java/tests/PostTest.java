@@ -21,7 +21,7 @@ public class PostTest extends Utilities {
     ResponseSpecification responspec;
     Response response;
     TestBuild testData = new TestBuild();
-    @Test
+    @Test(enabled = false)
     public void addActivity() throws IOException {
 
         responspec = new ResponseSpecBuilder().

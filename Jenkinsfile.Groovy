@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the source code from your Git repository
-                git 'https://github.com/your/repository.git'
+                git 'https://github.com/eyad-youssef/Swagger-Activities-API.git'
             }
         }
 
